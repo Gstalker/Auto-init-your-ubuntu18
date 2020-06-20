@@ -40,6 +40,9 @@ source init_your_ubuntu.sh
 # 文件夹single modules
 
 如果你只是想换个源，不想安装哪些花里呼哨的工具包
+
 或者你并不想换源，只是单纯的想安装几个工具包，
+
 又或者你只是想安装某个方面特长的工具包
+
 那就看看这个文件夹吧，里边对init_your_ubuntu.sh中的指令进行了分类
