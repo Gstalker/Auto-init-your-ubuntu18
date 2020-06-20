@@ -46,3 +46,8 @@ source init_your_ubuntu.sh
 又或者你只是想安装某个方面特长的工具包
 
 那就看看这个文件夹吧，里边对init_your_ubuntu.sh中的指令进行了分类
+
+# 还想要什么工具包？
+直接在issue里头提吧！
+
+也欢迎各位为这个项目添砖加瓦
