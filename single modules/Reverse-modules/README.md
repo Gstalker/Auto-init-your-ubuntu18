@@ -6,7 +6,7 @@
 ## 运行方式
 
 ```shell
-source Reverse-tools.sh
+source ./Reverse-tools.sh
 ```
 
 ## 这份脚本会做的事情:
