@@ -4,13 +4,9 @@
 注意！本仓库中的脚本需要superuser权限。如果担心这份shell会利用你的电脑做一些奇奇怪怪的事情，那么请无视这个项目=。=
 
 ## 运行方式
-
+下载`init_your_ubuntu`,并把它复制到你的虚拟机中
 ```shell
-git clone https://github.com/Gstalker/Auto-init-your-ubuntu18.git
-
-cd Auto-init-your-ubuntu18
-
-./init_yourubuntu.sh
+source init_your_ubuntu.sh
 ```
 
 ## 这份脚本会做的事情:
@@ -40,3 +36,10 @@ cd Auto-init-your-ubuntu18
 ## 目前已知的问题
 
 没有写入检测机制。后续更新会逐渐整进去
+
+# 文件夹single modules
+
+如果你只是想换个源，不想安装哪些花里呼哨的工具包
+或者你并不想换源，只是单纯的想安装几个工具包，
+又或者你只是想安装某个方面特长的工具包
+那就看看这个文件夹吧，里边对init_your_ubuntu.sh中的指令进行了分类
