@@ -18,20 +18,15 @@ source init_your_ubuntu.sh
 5. 安装ropper （pwn工具）
 6. 安装curl
 7. 安装net-tools
-8. 安装gmpy2前置需求：
-   - m4 1.4.18
-   - gmp 6.2.0
-   - MPFR 4.0.2
-   - MPC 1.1.0
-9. 安装python2工具包  ： pwntools 3.12.2
-10. 安装python3工具包
+8. 安装python2工具包  ： pwntools 3.12.2
+9. 安装python3工具包
     - pwntools （the latest version）
     - angr （ in Vritualenv)
       - 在控制台输入 `workon angr`以进入安装了angr的虚拟环境
       - 在angr虚拟环境中输入`deactivate`退出angr虚拟环境
     - ropper
     - z3 约束求解引擎
-    - gmpy2 大数计算框架 **（编译安装，速度较慢）**
+    - gmpy2 大数计算框架
 
 ## 目前已知的问题
 
