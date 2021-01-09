@@ -1,5 +1,5 @@
-# Auto-init-your-ubuntu18
-一键配置你的ubuntu18！
+# Auto-init-your-ubuntu
+一键配置你的ubuntu！支持ubuntu14.04以上的所有版本！
 
 注意！本仓库中的脚本需要superuser权限。如果担心这份shell会利用你的电脑做一些奇奇怪怪的事情，那么请无视这个项目=。=
 
@@ -27,7 +27,10 @@ source init_your_ubuntu.sh
     - gmpy2 大数计算框架
 
 ## 更新内容
+添加了版本控制：现在它可以支持14.04以上的所有ubuntu！
+
 移除了所有有关python2的内容
+
 增加了检测机制:可以告诉用户哪些模块成功安装了，哪些模块未被安装
 
 ## 目前已知的问题
