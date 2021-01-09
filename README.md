@@ -13,13 +13,11 @@ source init_your_ubuntu.sh
 
 1. 更换apt软件源为阿里云源
 2. 安装python3-pip并更换pip3为清华源
-3. 安装python2-pip并更换pip 为清华源
-4. 安装git         （代码仓库管理工具）
-5. 安装ropper （pwn工具）
-6. 安装curl
-7. 安装net-tools
-8. 安装python2工具包  ： pwntools 3.12.2
-9. 安装python3工具包
+3. 安装git         （代码仓库管理工具）
+4. 安装ropper （pwn工具）
+5. 安装curl
+6. 安装net-tools
+7. 安装python3工具包
     - pwntools （the latest version）
     - angr （ in Vritualenv)
       - 在控制台输入 `workon angr`以进入安装了angr的虚拟环境
@@ -28,9 +26,13 @@ source init_your_ubuntu.sh
     - z3 约束求解引擎
     - gmpy2 大数计算框架
 
-## newly add
-check the modules has been installed or not
+## 更新内容
+移除了所有有关python2的内容
+增加了检测机制:可以告诉用户哪些模块成功安装了，哪些模块未被安装
 
+## 目前已知的问题
+在某些版本的ubuntu中，angr似乎不能很好的被安装。
+ 
 # 文件夹single modules
 
 如果你只是想换个源，不想安装哪些花里呼哨的工具包
