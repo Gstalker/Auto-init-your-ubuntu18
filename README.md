@@ -28,9 +28,8 @@ source init_your_ubuntu.sh
     - z3 约束求解引擎
     - gmpy2 大数计算框架
 
-## 目前已知的问题
-
-没有写入检测机制。后续更新会逐渐整进去
+## newly add
+check the modules has been installed or not
 
 # 文件夹single modules
 
